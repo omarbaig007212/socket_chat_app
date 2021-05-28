@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Socket Io</h1>
+    
+    <div id="loginBox">
+        <input id="inpUsername" placeholder="Enter Username">
+        <input id="inpPassword" type="password" placeholder="Enter Password">
+        <button id="btnStart"> START </button>
+    </div>
+
+    <div id="msgBox">
+        <input type="text" placeholder="Where to (default everyone)" id="toWhere">
+        <input type="text" placeholder="Message To Send" id="msgText">
+        <button id="msgBtn"> SEND </button>
+        <ul id="msgUl"></ul>
+    </div>
+
+</body>
+</html>
